@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: 20vh auto;
+    text-align: center;
+    color: white;
+}
+
+.container h1{
+    font-size:5rem;
+}
+
+.container p{
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container{
+        max-width: 540px;
+        margin: 20vh auto;
+        text-align: center;
+        color: white;
+    }
+    
+}
+@media screen and (max-width:450px) {
+
+    .container{
+        max-width: 360px;
+        margin: 20vh auto;
+    }
+    .container h1{
+        font-size:4rem;
+    }
+    
+    .container p{
+        font-size: 2rem;
+    }
+    
+}

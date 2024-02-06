@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  mongo:
+    container_name: matrix_admin
+    image: projects/matrix_admin
+    ports:
+      - "27017:27017"
