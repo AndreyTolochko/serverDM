@@ -24,7 +24,8 @@ export default class UserMatrix {
   //Title it is digit and category name
   arcanFilter(title, category, variant = null) {
     try {
-      const arcan = this.getArcans().find((arcan) => {
+      const arcan = this.getArcans().find((arcan) => { 
+
         const matchesTitleAndCategory =
           arcan.title === title.toString() &&
           arcan.category._id.toString() === category._id.toString();
